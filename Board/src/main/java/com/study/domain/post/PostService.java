@@ -1,12 +1,10 @@
 package com.study.domain.post;
 
-import java.util.List;
-
-import javax.transaction.Transactional;
-
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import lombok.RequiredArgsConstructor;
+import javax.transaction.Transactional;
+import java.util.List;
 
 @Service
 @RequiredArgsConstructor

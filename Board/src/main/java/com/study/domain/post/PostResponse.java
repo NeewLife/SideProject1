@@ -1,8 +1,8 @@
 package com.study.domain.post;
 
-import java.time.LocalDateTime;
-
 import lombok.Getter;
+
+import java.time.LocalDateTime;
 
 @Getter
 public class PostResponse {
